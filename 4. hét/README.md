@@ -60,7 +60,7 @@ Háromszög mérete: 3
 ## Nehéz feladatok
 1. Számold ki n alatt a k-t az alábbi képlettel:
 (n, k)=(n*(n-1)*(n-2)*...*(n-k))/(k*(k-1)*(k-2)*...*1)
-2. Számold ki n alatt a k-t használva úgy, hogy először írgy egy faktorizáló függvényt, majd az alábbi képlettel számolsz:
+2. Számold ki n alatt a k-t használva úgy, hogy először írsz egy faktorizáló függvényt, majd az alábbi képlettel számolsz:
 (n, k)=faktor(n)/(faktor(k)*faktor(n-k))
 
 Emlékeztető:
