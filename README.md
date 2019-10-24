@@ -5,7 +5,7 @@ Szent István Gimnázium 2019 évi programozó szakkörének hivatalos Github ol
 ### 1. hét
 Ismerkedés a fejlesztői környezettel, első program létrehozása
 
-### 2-3. hét
+### 2-5. hét
 Ciklusok
 
 ## Hasznos segédanyagok
