@@ -29,7 +29,7 @@ char b2='X'; //Középső
 ...
 ```
 ## 3. részfeladat: X-ek és O-ok kirajzolása
-Módisítsd úgy a táblakirajzolást, hogy a megfelelő helyekre rajzolja ki az ```a1```, ```b1``` stb. változók értékét.
+Módosítsd úgy a táblakirajzolást, hogy a megfelelő helyekre rajzolja ki az ```a1```, ```b1``` stb. változók értékét.
 Példa:
 ```
 +---+---+---+
