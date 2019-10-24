@@ -162,17 +162,17 @@ Ehhez kezdetben az a1, b1 stb. változók értéke legyen ' ' (szóköz). Írj e
 
 </td></tr></table>
 
-Tipp: Console.Clear() paranccsal le tudod törölni a konzolt.
+Tipp: ```Console.Clear()``` paranccsal le tudod törölni a konzolt.
 
 ## 6. részfeladat: Kétfelhasználós játék
  Először is emeljük ki függvénybe a felhasználó megkérdezését.
  Azaz hozzunk létre egy ```static void KerdezdMeg(char jatekosszimbolus)```  függvényt,
  ami megkérdezi a felhasználótól melyik sorba és oszlopba szeretne rakni. Majd a megfelelő a1, b1 stb. változó értékét a jatekosszimbolumra állítja.
- Azaz ha a függvényt úgy hívjuk meg, hogy KerdezdMeg('X') akkor az X-t tesz a táblára, ha úgy hívjuk meg, hogy KerdezdMeg('O') akkor kört.
+ Azaz ha a függvényt úgy hívjuk meg, hogy ```KerdezdMeg('X')``` akkor az X-t tesz a táblára, ha úgy hívjuk meg, hogy ```KerdezdMeg('O')``` akkor kört.
  
  Módosítsd úgy a Main függvényedben lévő ciklust, hogy az alábbit csinálja:
-  - Ha páratlan kör van akkor hívja meg a KerdezdMeg('X') függvényt
-  - Ha páros kör van hívja meg a KerdezdMeg('Y') függvényt
+  - Ha páratlan kör van akkor hívja meg a ```KerdezdMeg('X')``` függvényt
+  - Ha páros kör van hívja meg a ```KerdezdMeg('Y')``` függvényt
   - Majd rajzolja ki az új táblát
   
  Már egész játszható játékot kaptunk, de még felül tudja írni az egyik játékos a másik által beírt betűt, ezt próbáld meg kijavítani, ha nem megy nyugodtan kérdezz :)
@@ -189,5 +189,5 @@ Tipp: Console.Clear() paranccsal le tudod törölni a konzolt.
  }
   Console.WriteLine("Vége a játéknak");
   ```
-  Tipp: mindig az nyerte meg a játékot, aki legutoljára lépet
+  Tipp: Ha ki akarod írni, hogy ki nyert, akkor használd ki, hogy mindig az nyerte meg a játékot, aki legutoljára lépet
  
