@@ -86,6 +86,7 @@ Mivel a táblakirajzolást megéri kiszervezni egy külön függvénybe, hogy á
       int nevezo=Faktor(n-k)*Faktor(k); //Újra meghívjuk a faktor függvényünket,
                                         //de más lesz a bemeneti paraméter
       Console.WriteLine($"n alatt a k: {szamlalo/nevezo}");
+      Console.ReadLine();
     }
   }
   ...
@@ -133,6 +134,7 @@ class Program {
     
     //Meghívjuk a Tablakirajzoló függvényt
     Tablakirajzol();
+    Console.ReadLine();
   }
 }
 ...
