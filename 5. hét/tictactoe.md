@@ -181,11 +181,11 @@ Tipp: ```Console.Clear()``` paranccsal le tudod törölni a konzolt.
  
  ## 7. részfeladat: Játék vége
  A program jó lenne, ha észrevenné ha valaki nyert.
- Ehhez írj egy olyan függvényt, ami igazzal tér vissza ha vége van a játéknak és hamissal ha nem: ```static bool VegeVane()```
- Majd módosítsd a Main függvényben lévő ciklust, hogy addig ismételje a kirajzolást, amíg nincs vége a játéknak:
+ Ehhez írj egy olyan függvényt, ami igazzal tér vissza ha valamelyik játékos megnyerte a játékot és hamissal ha nem: ```static bool VegeVane()```
+ Majd módosítsd a Main függvényben lévő ciklust, hogy addig ismételje a kirajzolást, amíg egyik játékos sem nyerte meg és még nem telt be a tábla.
  ```cs
  ...
- while(VegeVan()==false)
+ while(VegeVan()==false /*és kevesebb mint 9 kör volt*/)
  {
     ...
  }
