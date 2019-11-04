@@ -61,7 +61,7 @@ Majd bármikor mikor új random számra lenne szükséged meghívod az rnd.Next(
 
 ## 4. feladat
 Ez egy kicsit bonyolultabb feladat.
-Egy Zrinyi versenyeken gyakori feladat az, hogy meg kell számolni hányféleképpen lehet a ZRINYI feliratot kiolvasni az alábbi táblázatból: 
+Egy Zrinyi versenyeken gyakori feladat az, hogy meg kell számolni hányféleképpen lehet a ZRINYI feliratot kiolvasni az alábbi táblázatból, ha mindig csak lefele és jobbra folytatjuk az olvasást: 
 ```
 ZRINYI
 RINYI
@@ -71,4 +71,49 @@ YI
 I
 ```
 Ha nem ismered a feladatot gondolkozz picit a megoldáson, ha nem megy olvasd el a megoldást.
+<table><tr><td>
 
+<details>
+  <summary>Megoldás</summary>
+  A 'Z' szöveget 1 féleképpen tudjuk kiolvasni. Az 'ZR' szöveget kétféleképpen, egyszer ha az első sorban szereplő 'R'-ben fejezzük be az olvasást, 1-szer ha a második sorban szereplő 'R' betűben fejezzük be. Hasonlóan a ZRINYI szót is annyiszor tudjuk kiolvasni, mint ha összeadnánk, hogy az egyes 'I' betűkben hányféleképpen juthatunk el.
+ 
+ Már csak az a kérdés, hogy az egyes 'I' betűkbe hányféleképpen juthatunk el. A legfölső sorban lévő 'I' betűt könnyen láthatjuk, hogy csak 1 féle képpen lehet elérni, ha végig jobbra lépünk. Hasonlóan a legalsó sorban lévő 'I' betűt. A második sorban lévő 'I' betű már bonyolultabb, de ha azt nézzük, hogy ha a 2. sorban lévő 'I' betűbe honnan érkeztünk, akkor csak az 1. és a 2. sorban lévő 'Y' betű jöhet szóba. Innen jöhet az ötlet, hogy töltsünk ki egy táblázatot, hogy egy betűbe hányféleképpen juthatunk el. Ez mindig a tőle balra lévő és a felette lévő cella összege:
+  
+|       | Z | R | I  | N  | Y | I |
+|-------|---|---|----|----|---|---|
+| __Z__ | 1 | 1 | 1  | 1  | 1 | 1 |
+| __R__ | 1 | 2 | 3  | 4  | 5 |   |
+| __I__ | 1 | 3 | 6  | 10 |   |   |
+| __N__ | 1 | 4 | 10 |    |   |   |
+| __Y__ | 1 | 5 |    |    |   |   |
+| __I__ | 1 |   |    |    |   |   |
+
+ Azaz összesen 1+5+10+10+5+1=32 féleképpen tudjuk kiolvasni a ZRINYI szót.
+</details>
+</td></tr></table>
+
+A programunkban mostmár nem sima tömböt fogunk használni, hanem 2D tömböt. 2D tömbök hasonlóak, mint az eddig tanult 1D tömbök, csak ezekben nem csak egy sornyi adatot, hanem egy teljes táblázatot lehet tárolni.
+```cs
+int[][] tablazat=new int[3][4]; //Egy 3 sorból és 4 oszlopból álló táblázatot hoz létre.
+tablazat[0][0]=5; //Az első sor, első celláját 5-re állítja
+Console.WriteLine($"Tablazat elso cellaja: {tablazat[0][3]}"); //Kiírja az első sor utolsó oszlopának értékét a konzolra
+for(int i=0;i<3;i++){ //Kiírja az összes mezőt.
+  for(int j=0;j<4;j++){
+    Console.Writle($"tablazat[i][j]\t");
+  }
+  Console.WriteLine();
+}
+```
+Feladatod, hogy írj egy programot, ami fogad egy szögevet, kiírajzolja a táblázatot, majd kiírja hányféleképpen olvasható ki a szó.
+```
+Írj be egy szót!
+Alma
+
+Táblázat:
+ALMA
+LMA
+MA
+A
+
+Összesen 8 féleképpen olvasható ki az ALMA szó!
+```
