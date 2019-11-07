@@ -52,7 +52,7 @@ Olvass be egy sorban valahány számot, majd írd ki őket fordított sorrendben
 90 50 40 10 20 40 20 10 20 30
 ```
 Tipp: van egy olyan függvény hogy String.Split() ennek egy stringet kell adni és azt szóköz mentén szétdarabolja,
-majd visszaadja egy string tömbben: ```string darabolt=Sring.Split(Console.ReadLine());```
+majd visszaadja egy string tömbben: ```string[] darabolt=Sring.Split(Console.ReadLine());```
 
 ## 3. feladat
 Tölts fel egy tömbböt 20 random számmal. Majd írd ki a tömb tartalmatát, végül írd ki, hogy hány 5-tel osztható szám van a tömbben.
