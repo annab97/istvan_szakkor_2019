@@ -8,6 +8,9 @@ Ismerkedés a fejlesztői környezettel, első program létrehozása
 ### 2-5. hét
 Ciklusok
 
+### 6. hét
+Tömbök, függvények
+
 ## Hasznos segédanyagok
 - https://stackoverflow.com/ : Szinte minden programozással kapcsolatos kérdésre találsz itt választ, ha tudsz angolul.
 - https://docs.microsoft.com/en-us/dotnet/csharp/ : Tutorialok, metódusok osztályok leírásai (API dokumentáció, angolul)
