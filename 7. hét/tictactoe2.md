@@ -63,7 +63,7 @@ A játékunk fő ciklusa után olvassuk be a toplista.txt fájl tartalmát:
 
 ```cs
 string[] nevek=new string[1000]; //Egy tömbben eltároljuk, a beolvasott neveket
-                                 //Feltesszük, hogy 1000 főnél több nem szerepel
+                                 //Feltesszük, hogy 1000 főnél több nem szerepel a fájlban
 int[] gyozelmekeddig=new int[1000]; //Hasonlóan az minden játékosra az eddigi győzelmeinek a száma.
 
 int index=0; //Hanyadik sort olvassuk
