@@ -8,7 +8,7 @@ Ismerkedés a fejlesztői környezettel, első program létrehozása
 ### 2-5. hét
 Ciklusok
 
-### 6. hét
+### 6.-7. hét
 Tömbök, függvények
 
 ## Hasznos segédanyagok
