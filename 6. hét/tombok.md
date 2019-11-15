@@ -94,12 +94,12 @@ Ha nem ismered a feladatot gondolkozz picit a megoldáson, ha nem megy olvasd el
 
 A programunkban mostmár nem sima tömböt fogunk használni, hanem 2D tömböt. 2D tömbök hasonlóak, mint az eddig tanult 1D tömbök, csak ezekben nem csak egy sornyi adatot, hanem egy teljes táblázatot lehet tárolni.
 ```cs
-int[][] tablazat=new int[3][4]; //Egy 3 sorból és 4 oszlopból álló táblázatot hoz létre.
-tablazat[0][0]=5; //Az első sor, első celláját 5-re állítja
-Console.WriteLine($"Tablazat elso cellaja: {tablazat[0][3]}"); //Kiírja az első sor utolsó oszlopának értékét a konzolra
+int[,] tablazat=new int[3,4]; //Egy 3 sorból és 4 oszlopból álló táblázatot hoz létre.
+tablazat[0,0]=5; //Az első sor, első celláját 5-re állítja
+Console.WriteLine($"Tablazat elso cellaja: {tablazat[0,3]}"); //Kiírja az első sor utolsó oszlopának értékét a konzolra
 for(int i=0;i<3;i++){ //Kiírja az összes mezőt.
   for(int j=0;j<4;j++){
-    Console.Writle($"tablazat[i][j]\t");
+    Console.Writle($"tablazat[i,j]\t");
   }
   Console.WriteLine();
 }
