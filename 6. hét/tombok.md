@@ -55,7 +55,8 @@ Tipp: van egy olyan függvény hogy String.Split() ennek egy stringet kell adni 
 majd visszaadja egy string tömbben: 
 ```cs
 string szoveg=Console.ReadLine();
-string[] darabolt=szoveg.Split(' ');```
+string[] darabolt=szoveg.Split(' ');
+```
 
 ## 3. feladat
 Tölts fel egy tömbböt 20 random számmal. Majd írd ki a tömb tartalmatát, végül írd ki, hogy hány 5-tel osztható szám van a tömbben.
