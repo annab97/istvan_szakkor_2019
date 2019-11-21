@@ -19,6 +19,15 @@ for(int i=0;i<3;i++){
   }
 }
 ```
+
+Tipp: ha hanyadik az abc-ben akkor azt így tehetjük meg: 
+```cs
+char karakter='c';
+int hanyadik=karakter-'a'; //2 lesz az értéke (0-tól számozza), ha nagybetűkkel dolgozunk akkor a 'A'-t kell kivonni
+```
+
+Magyarázat: A program a karaktereket is számként tárolja el. Minden karakternek megvan a saját úgynevezett ASCII kódja, [ebben a táblázatban](https://en.wikipedia.org/wiki/File:ASCII-Table.svg) láthatod, hogy mely karakternek mennyi a kódja. Pl. a kis a betű kódja 97. Mikor C#-ban kivonunk két karaktert egymásból akkor a program automatikusan a karakter kódjaikat vonja ki egymásból. Így ha megnézzük a 'c' karakterkódja 99 és így 'c'-'a'=99-97=2.
+
 ## 2. feladat
 Ebben a feladatban megismerjük hogyan lehet fájlba írni, fájlból olvasni. Cél, létrehozni eg toplistát,
 ahol elmentjük, hogy ki eddig hány játékot nyert.
