@@ -121,3 +121,10 @@ A
 
 Összesen 8 féleképpen olvasható ki az ALMA szó!
 ```
+
+Tipp: C#-ban a szövegek is úgy viselkednek mint a tömbök, csak nem módosíthatóak az elemei:
+```cs
+string a="Alma";
+Console.WriteLine(a.Length); //4-et fog kiírni
+Console.WriteLine(a[2]); //m-et fog kiírni
+```
