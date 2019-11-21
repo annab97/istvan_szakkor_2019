@@ -60,7 +60,8 @@ string[] darabolt=szoveg.Split(' ');
 
 ## 3. feladat
 Tölts fel egy tömbböt 20 random számmal. Majd írd ki a tömb tartalmatát, végül írd ki, hogy hány 5-tel osztható szám van a tömbben.
-Tipp: úgy tudsz generálni ha leírod ezt a sort a main függvényed legelejére: ```Random rnd=new Random();```
+
+Tipp: úgy tudsz random számot generálni ha leírod ezt a sort a main függvényed legelejére: ```Random rnd=new Random();```
 Majd bármikor mikor új random számra lenne szükséged meghívod az rnd.Next() függvényt, pl: ```int randomszam=rnd.Next();```
 
 ## 4. feladat
