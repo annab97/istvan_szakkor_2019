@@ -108,7 +108,7 @@ for(int i=0;i<3;i++){ //Kiírja az összes mezőt.
   Console.WriteLine();
 }
 ```
-Feladatod, hogy írj egy programot, ami fogad egy szögevet, kiírajzolja a táblázatot, majd kiírja hányféleképpen olvasható ki a szó.
+Feladatod, hogy írj egy programot, ami fogad egy szöveget, kirajzolja a táblázatot, majd kiírja hányféleképpen olvasható ki a szó.
 ```
 Írj be egy szót!
 Alma
