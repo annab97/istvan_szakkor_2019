@@ -31,12 +31,3 @@ Osztás esetén írd ki az eredményt tizedes tört alakban, illetve hányados+m
 6. Írj függvényt, ami csupa ebetűssé alakítja a paraméterül kapott szót és visszatér a csupa ebetűs szóval.
 Írj hozzá main függvényt, ami beolvas a felhasználótól egy szót, a korábbi függvény használatával átalakítja ebetűssé majd visszatér vele.
 
-## Bonyolultabb algoritmizálós feladatok:
-
-7. Kérj be egy számot és írd ki a számjegyeinek az összegét.
-
-8. Kérj be egy számot és írd ki az osztóit.
-
-9. Kérj be egy számot és határozd meg prím-e.
-
-10. Kérj be egy számot és írd ki a prímfelbontását.
