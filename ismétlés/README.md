@@ -24,7 +24,7 @@ Osztás esetén írd ki az eredményt tizedes tört alakban, illetve hányados+m
 
 4. Az előbbi program írja ki a 11-gyel osztható számok számát is 1 és N között.
 
-## Ha használtál már stringeket:
+## Csináltad már a stringes feladatsort
 
 5. Írj programot, ami csupa ebetűssé alakítja a beolvasott szót: kutya -> ketye
 
