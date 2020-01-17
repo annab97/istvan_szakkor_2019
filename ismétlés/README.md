@@ -29,5 +29,5 @@ Osztás esetén írd ki az eredményt tizedes tört alakban, illetve hányados+m
 5. Írj programot, ami csupa ebetűssé alakítja a beolvasott szót: kutya -> ketye
 
 6. Írj függvényt, ami csupa ebetűssé alakítja a paraméterül kapott szót és visszatér a csupa ebetűs szóval.
-Írj hozzá main függvényt, ami beolvas a felhasználótól egy szót, a korábbi függvény használatával átalakítja ebetűssé majd visszatér vele.
+Írj hozzá main függvényt, ami beolvas a felhasználótól egy szót, a korábbi függvény használatával átalakítja ebetűssé majd kiírja a konzolra.
 
