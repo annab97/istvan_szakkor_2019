@@ -58,6 +58,7 @@ Majd, tesztelésként ezt is hívjuk meg olyan telefonon, ahol szerepel az adott
 
 ## 4. Feladat
 Olyan telefonszolgáltatónál vannak telefonjaink regisztrálva, aki nem percdíjat számláz, hanem minden hívás ugyanannyiba (50 ft) kerül.
+
 Hozz létre egy void Hívás(string partner_neve) függvényt. Ez nézze meg, hogy a partner szerepel-e a partnerek között, van-e pénz az egyenlegünkön
 a híváshoz, ha nem szerepel a partner, vagy nincs pénz a kártyánkon akkor hibaüzenetet ír ki, különben pedig kiírja, hogy kit milyen számon hív.
 pl. "Kata (+36201234567) hívása"
