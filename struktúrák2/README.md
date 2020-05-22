@@ -6,6 +6,7 @@ Pl. a telefon struktúránk tárolja a következő adatokat:
   - A telefon számunk (szöveg típusú)
   - Az egyenlegünk (egész szám)
   - Ismerőseink telefonszámai (Partner struktúrából álló tömb)
+  
 A partner struktúránk nézzen ki az alábbi módon:
   - A partner neve (szöveg)
   - A partner telefonszáma (szöveg)
