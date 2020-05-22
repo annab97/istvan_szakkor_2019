@@ -22,11 +22,11 @@ akkor annak a helyére írj valamit, hogy azt már figyelmen kívül kell hagyni
 (pl. `Int32.MaxValue` tárolja a legnagyobb számot ami az int változóba bele lehet írni, így ha ezt használjuk, akkor ezt tuti nem fogja mint minimum kiválasztani).
 Ha feltöltöttük az új tömböt, akkor befejezhetjük a rendezést.
 
-### Extra: Helybenhagyásos (inorder) rendezés
+### Extra: Helybenhagyásos (in place) rendezés
 Ne hozzunk létre új tömböt, csak a meglévő tömböt használjuk. Csak csere műveletekkel mozgassunk adatokat, azaz csak az megengedett, hogy kicseréljünk két elemet a tömbben.
 
 ## Buborék rendezés
-A buborék rendezés kevésbé intuitív, de még egyszerű algoritmus, és gyors megírni. Ez cseréken alapul, és nem használ segédtömböt (inorder rendez).
+A buborék rendezés kevésbé intuitív, de még egyszerű algoritmus, és gyors megírni. Ez cseréken alapul, és nem használ segédtömböt (in place rendez).
 Úgy működik, hogy először az első kettő elemet vizsgálja, meg, ha rossz a sorrendjük (a második elem kisebb, mint az első), akkor kicseréli azokat.
 Majd ugyanezt elvégzi az új 2. elem és a 3. elem között, majd az új 3. elem és a 4. elem között, így tovább.
 Végül újrakezdi megint az első és a második elem összehasonlításával és hasonlóan végigmegy a tömbön.
@@ -37,6 +37,9 @@ Hasonlóan olvasd be a 10 számot, de most a függvényeken kívül (de még a c
 Majd hozz létre egy csere függvényt, ami vár két indexet, és megcseréli az adott indexű elemeket a tömbben.
 ### 4. feladat Buborék rendezés
 A csere függvényt felhasználva, rendezd buborék rendezéssel a tömböt.
+
+### Extra: Optimalizálás
+A buborék rendezést lehetne kicsit optimalizálni, hogy feleennyi idő alatt fusson le. Hogyan? (Segít ha megnézed a wikipédiás animációkat).
 ## Extra: Struktúrák rendezése.
 Tegyük fel, hogy van egy `Tort` nevű struktúránk, ahol tört számokat tárolunk még hozzá úgy hogy két egész szám változóban tároljuk külön a
 számlálót és a nevezőt.
