@@ -3,6 +3,7 @@ Az első winformsos program egy bejelentkező oldal lesz. Az oldalon meg tudod a
 kiírja sikeres volt-e a belépés.
 
 Az elkészült projektnek így kellene kinézzen:
+
 ![](bejelentkezes.png)
 
 ## 1. feladat
