@@ -3,7 +3,7 @@ Az első winformsos program egy bejelentkező oldal lesz. Az oldalon meg tudod a
 kiírja sikeres volt-e a belépés.
 
 Az elkészült projektnek így kellene kinézzen:
-#TODO
+![](bejelentkezes.png)
 
 ## 1. feladat
 A designer segítségével készítsd el az oldal kinézetét, és nevezd el az elemeket. (A sikeres bejelentkezés elem még nem kell).
