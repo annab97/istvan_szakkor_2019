@@ -62,7 +62,7 @@ Majd készíts beolvas függvényt a Form1 osztályban, ami beolvassa az adatoka
 
 ## 4. feladat
 
-A `From1()` nevű konstruktorban állítsd be, hogy az első kérdés, illetve annak válaszai jelenjenek meg. (Először ehhez meg kell hívnod a beolvas függvényt).
+A `From1()` nevű konstruktorban (az `InitializeComponent()` alatt) állítsd be, hogy az első kérdés, illetve annak válaszai jelenjenek meg. (Először ehhez meg kell hívnod a beolvas függvényt).
 
 ## 5. feladat
 
