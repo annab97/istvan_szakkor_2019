@@ -93,3 +93,4 @@ a telefonos segítség mutassa meg a jó választ, a közönségsegítségnek me
 Ehhez új labeleket, gombokat is fel kell vegyél...
 - Írja ki, hogy hány forintnál jársz, és a kérdések egyre több pénzt érjenek az eredeti játék mintájára.
 - Ha egy válasz felé viszed az egered, annak legyen sárga háttere. (Evenetek között van olyan, hogy MouseOver)
+- Legyen egy start gomb, és csak a start gombot megnyomva induljon el a játék
