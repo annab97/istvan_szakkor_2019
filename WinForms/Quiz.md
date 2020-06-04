@@ -5,6 +5,8 @@ a kérdésekre négy válaszlehetőség közül kell kiválassza a megfelelőt, 
 
 A játék addig tart amíg vagy elront egy kérdést a játékos, vagy megválaszolja az összes kérdést helyesen.
 
+A feladatsorban nem írom, de szükségesnek látod, akkor nevezd el az egyes grafikus elemeket.
+
 ## 1. feladat
 Először is állítsd át az ablak nevét "Legyen ön is milliomos!"-ra.
 
