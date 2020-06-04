@@ -18,7 +18,7 @@ A gomboknak a `Dock` tulajdonságát, ha `Fill`-re állítod, akkor kitöltik a 
 
 ## 2. feladat
 
-Formázd meg a gombokat, és a hátteret, valami, az ábrán láthatóhoz hasonlóra. Felhasználhatod az ebben a mappában található `löm_hatter.png` fájlt.
+Formázd meg a gombokat, és a hátteret, valami, az ábrán láthatóhoz hasonlóra. Felhasználhatod az ebben a mappában található [löm_hatter.png](löm_hatter.png) fájlt.
 A gomboknak kép háttért a `BackgroundImage` property-n keresztül tudsz beállítani. Ezen kívól szükséged lesz a `FlatStyle`, `BorderSize`, `BackgroundImageLayout`
 illetve `BackColor` tulajdonságok állítására. A háttérszínt a web fülön látható `Transparent` (átlátszó) színre állítsd.
 
@@ -26,6 +26,8 @@ Illetve állítsd át az ablak háttérszínét, és a betűszíneket.
 
 Próbáld ki az alkalmazást, itt még azt fogod tapasztalni, hogyha a gomb felé vizsed az egeret, és kattintasz vele, akkor nem néz ki szépen.
 Ezt úgy tudod kijavítani, ha a `FlatApparance` kategórián belül a megfelelő értékeket átlátszóra állítod.
+
+![2. lépés](löm2.png)
 
 ## 3. feladat
 
