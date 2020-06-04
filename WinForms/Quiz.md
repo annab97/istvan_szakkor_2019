@@ -14,7 +14,7 @@ akkor át tudod méretezni a labelt, illetve állítsd be, hogy a szöveg közé
 Ezután adj hozz egy `TableLayoutPanel`-t az ablakra, méretezd át megfelelően, majd illesz bele négy gombot. Ezek lesznek a válaszlehetőségek.
 A gomboknak a `Dock` tulajdonságát, ha `Fill`-re állítod, akkor kitöltik a táblázat megfelelő mezőit.
 
-![1. lépés](löm1.png)
+![1. lépés](löm1.PNG)
 
 ## 2. feladat
 
@@ -27,7 +27,7 @@ Illetve állítsd át az ablak háttérszínét, és a betűszíneket.
 Próbáld ki az alkalmazást, itt még azt fogod tapasztalni, hogyha a gomb felé vizsed az egeret, és kattintasz vele, akkor nem néz ki szépen.
 Ezt úgy tudod kijavítani, ha a `FlatApparance` kategórián belül a megfelelő értékeket átlátszóra állítod.
 
-![2. lépés](löm2.png)
+![2. lépés](löm2.PNG)
 
 ## 3. feladat
 
