@@ -9,6 +9,8 @@ Ha elindítjuk a programot a zöld háromszöggel, akkor meg is jelenik az ablak
 Még az ablak neve form1, ezt látjuk a jobb felső sarokban. Ezt úgy tudjuk átnevezni, ha a Visual Studio jobb alsó sarkában lévő properties fülön átállítjuk a Text tulajdonságot.
 Mondjuk nevezzük át "DinoAdventures"-re. Indítsd el a programot és ellenőrizd le, hogy sikerült lecserélni a form1 feliratot.
 
+![properites_ablak](platformer_1.PNG)
+
 ## Képek hozzáadása
 
 Ebben a mappában több ingyenesen elérhető képet találsz, amit fel tudunk használni a platformer játékunkhoz. Képet úgy tudunk hozzáadni játékunkhoz, ha Project menüben a Properties 
@@ -40,6 +42,8 @@ Ezt úgy tudod megtenni, ha a design fülön a properties ablakba mész, itt ha 
 ## Föld kirajzolása
 
 Módosítsd úgy a kirajzolást, hogy egész szélességében legyen fű a képernyő alján.
+
+![föld_kirajzolása](platformer_2.PNG)
 
 ## Dinó kirajzolása
 
