@@ -1,3 +1,3 @@
 # Platformer játék
 
-- első rész: [platformer.md](platformer.md)
+- bevezető: [platformer.md](platformer.md)
