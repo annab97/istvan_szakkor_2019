@@ -40,11 +40,11 @@ Teszteld, hogy helyesen működik-e a program.
 
 Cél egy ilyen listanézet létrehozása:
 
-![lista_nezet1.png](lista_nezet.png)
+![lista_nezet1.png](lista_nezet1.png)
 
 Elindítca így fog kinézni:
 
-![lista_nezet2.png](lista_nezet_2.png)
+![lista_nezet2.png](lista_nezet2.png)
 
 ### Menü
 
