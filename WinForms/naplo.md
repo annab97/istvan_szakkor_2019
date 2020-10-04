@@ -108,5 +108,5 @@ __Segítségek__:
 
 ### Új bejegyzés létrehozása
 
-Ez a feladatrész még nincs kész!
+Ez a feladatrész még kidolgozás alatt!
 
