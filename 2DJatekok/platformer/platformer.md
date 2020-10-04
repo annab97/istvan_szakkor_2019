@@ -89,4 +89,4 @@ img_robot.RotateFlip(RotateFlipType.Rotate180FlipY); //img_robot a változó, am
 
 ## Pálya széle
 
-Végül egészítsd ki a kódot, hogy ha a dino eléri a pálya szélét, akkor álljon meg, és ne menjen abba az irányba.
+Végül egészítsd ki a kódot, hogy ha a robot eléri a pálya szélét, akkor álljon meg, és ne menjen abba az irányba.
