@@ -89,5 +89,5 @@ ___Extra feladat___: Módosítsd úgy a szülő osztályt, hogy több gyerekei i
 
 ## 9. feladat
 
-A main függvényben hozz létre egy tesztiskolát, tesztosztályokkal, teszttanárokkal, és tesztszülőkkel. Majd a teszttanárok osztályozzák a teszttanárokat, végül hívd meg egy tetszőleges tesztszülő OsztályzatokListazasa függvényét. (A tesztfelhasználókhoz létrehozhatod for ciklusokkal is.)
+A main függvényben hozz létre egy tesztiskolát, tesztosztályokkal, teszttanárokkal, és tesztszülőkkel. Majd a teszttanárok osztályozzák a tesztdiákokat, végül hívd meg egy tetszőleges tesztszülő OsztályzatokListazasa függvényét. (A tesztfelhasználókhoz létrehozhatod for ciklusokkal is.)
 
