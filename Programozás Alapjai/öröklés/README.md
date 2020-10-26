@@ -76,7 +76,7 @@ Matematika: 5 1 1 2 5 4
 Fizika: 2 3
   átlag: 2.5
 Magyar: 5 5 5 5 5 5 5 3 5
-  átlag: 4.78
+  átlag: 4.8
 Testnevelés: 2 5 5 3 2
   átlag: 3.4
 ```
