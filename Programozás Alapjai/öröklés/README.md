@@ -138,9 +138,8 @@ Melyik műveletet szeretnéd elvégezni?
 ```
 Lehetséges műveletek:
   1. Jegybeírás
-  2. Osztályzatok listázása
-  3. Jelszómódosítás
-  4. Kilépés
+  2. Jelszómódosítás
+  3. Kilépés
 Melyik műveletet szeretnéd elvégezni?
 ```
 
