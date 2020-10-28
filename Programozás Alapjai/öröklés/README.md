@@ -95,7 +95,7 @@ Ha létrehozunk egy leszármazott osztályból objektumot, akkor arra nézhetün
 
 ```cs
 Felhasznalo felhasznalo1=new Diak("Nagy károly","nagykarcsi01","jelszo123"); //itt egy diákot hozunk létre, de csak úgy tekintünk rá, mintha felhasználó lenne.
-Felhasznalo felhasznalo2=new Tanar("Kovács Ede","ede7210","edeakiraly"); //itt egy tanárt hozunk létre, de minket csak az érdekel, hogy ő egy felhasználó
+Felhasznalo felhasznalo2=new Tanar("Kovács Ede","ede7210","edeakiraly","Matematika"); //itt egy tanárt hozunk létre, de minket csak az érdekel, hogy ő egy felhasználó
 
 ```
 
