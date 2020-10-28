@@ -159,9 +159,27 @@ Teszteld is a `MenutMutasd` függvényt.
 
 Folytasd a MenutMutasd függvényt. A felhasználó a sorszám megadásával választhassa ki meg melyik műveletet szeretné elvégezni. És kérdezd meg még, ha kell a művelethez plussz adat (pl. jelszómódosítás esetén régi és új jelszó), majd hívd meg a megfelelő függvényt. Végül jelenítsd meg újra a menüt, hogy új műveletet is el tudjon végezni a felhasználó. Addig végezhet műveleteket a felhasználó, amíg a kilépés műveletet nem választja.
 
+
+
 ## 13. feladat
 
 Az utolsó feladat a bejelentkezés lesz. A `Main` függvényben kérd be a felhasználó felhasználónevét és jelszavát. Keresd ki a tesztfelhasználók közül a megfelelő felhasználót. És hívd meg a felhasználó MenutMutasd függvényét. Ha kilép a felhasználó, újra tudjon belépni más felhasználóként is, a felhasználónév jelszó megadásával. Ha üres felhasználónevet ad meg, akkor lépj ki a programból.
+
+___Tipp___: Ha szeretnéd, hogy jelszó beírásánál ne látszódjon, hogy mit ír be a felhasználó, akkor használd fel ezt a függvényt:
+```cs
+private static string GetHiddenConsoleInput()  //Egy sort olvas be akárcsak a Console.ReadLine() csak nem látszik a képernyőn, hogy mit ír a felhasználó
+{
+    StringBuilder input = new StringBuilder();
+    while (true)
+    {
+        var key = Console.ReadKey(true);
+        if (key.Key == ConsoleKey.Enter) break;
+        if (key.Key == ConsoleKey.Backspace && input.Length > 0) input.Remove(input.Length - 1, 1);
+        else if (key.Key != ConsoleKey.Backspace) input.Append(key.KeyChar);
+    }
+    return input.ToString();
+}
+```
 
 Teszteld a program működését!
 
