@@ -89,5 +89,80 @@ ___Extra feladat___: Módosítsd úgy a szülő osztályt, hogy több gyerekei i
 
 ## 9. feladat
 
-A main függvényben hozz létre egy tesztiskolát, tesztosztályokkal, teszttanárokkal, és tesztszülőkkel. Majd a teszttanárok osztályozzák a tesztdiákokat, végül hívd meg egy tetszőleges tesztszülő OsztályzatokListazasa függvényét. (A tesztfelhasználókat létrehozhatod for ciklusokkal is.)
+A Main függvényben hozz létre egy felhasználókból álló listát. Itt fogjuk eltárolni az e-napló felhasználóit. Töltsd is fel tesztfelhasználókkal, akik vagy tanárok, vagy diákok vagy szülők kell legyenek.
+
+Ha létrehozunk egy leszármazott osztályból objektumot, akkor arra nézhetünk úgyis, mintha az ősosztályból hoztunk volna létre egy példányt. Ekkor persze csak az ősosztály tagváltozóit, függvényeit érjük el rajta.
+
+```cs
+Felhasznalo felhasznalo1=new Diak("Nagy károly","nagykarcsi01","jelszo123"); //itt egy diákot hozunk létre, de csak úgy tekintünk rá, mintha felhasználó lenne.
+Felhasznalo felhasznalo2=new Tanar("Kovács Ede","ede7210","edeakiraly"); //itt egy tanárt hozunk létre, de minket csak az érdekel, hogy ő egy felhasználó
+
+```
+
+Ha olyan listát vagy tömböt készítünk, amiben sok különböző leszármazott elem van, de a lista vagy tömb típusa az ősosztály, akkor azt __heterogén kollekciónak__ hívjuk. 
+
+## 10. feladat
+
+Hozz létre a felhasználó osztályban egy `MenutMutasd()` függvényt az alábbi módon:
+
+```cs
+public absctact class Felhasznalo { //Az osztályt is állítsd át, hogy abstract legyen.
+   //...
+  public abstract void MenutMutasd();
+
+  //...
+}
+```
+
+Az abstract osztály azt jelenti, hogy ebből az osztályból nem lehet példányokat létrehozni. Azaz felhasználót nem lehet létrehozni, csak a felhasználó osztály leszármazottait, azaz diákokat, tanárokat, szülőket. Az abstract függvény azt jelenti, hogy igérjük, hogy minden felhasználónak lesz majd MenutMutasd függvénye, de azt nem a felhasználó osztályban írjuk meg, hanem az egyes leszármazottakban. Így mikor mondjuk a 9. feladatban létrehozott `felhasznalo1` objektumnak hívjuk meg a `MenuMtutasd()` függvényét, akkor a Diák osztályban megírt függvény fog lefutni. Ha a`felhasznalo2`-ben hívjuk meg ezt, akkor a Tanár osztályban megírt működés fog lefutni.
+
+Figyeld meg, hogy itt pontosvessző szerepel a függvény után, ezzel is jelezzük, hogy ezt a függvényt még nem írjuk meg, csak igérjük, hogy lesz ilyen függvény.
+
+## 11. feladat
+
+Hozz létre a diák, tanár, szülő osztályokban is `MenutMutasd()` függvényeket. Itt fogjuk megmondani, hogy az egyes leszármazottak esetén hogy működjön, a menü megjelenítése. A függvények elé itt az `override` kulcsszót kell írjuk, mert felül akarjuk írni, a Felhasználóban lévő üres működést, a menü kiírásával.
+
+Minden `MenutMutasd` függvény jelenítsen meg egy menüt a konzolon az alábbi módon: 
+
+- Diák:
+```
+Lehetséges műveletek:
+  1. Osztályzatok listázása
+  2. Jelszómódosítás
+  3. Kilépés
+Melyik műveletet szeretnéd elvégezni?
+```
+
+- Tanár:
+
+```
+Lehetséges műveletek:
+  1. Jegybeírás
+  2. Osztályzatok listázása
+  3. Jelszómódosítás
+  4. Kilépés
+Melyik műveletet szeretnéd elvégezni?
+```
+
+- Szülő:
+
+```
+Lehetséges műveletek:
+  1. Osztályzatok listázása
+  2. Jelszómódosítás
+  3. Kilépés
+Melyik műveletet szeretnéd elvégezni?
+```
+
+Teszteld is a `MenutMutasd` függvényt.
+
+## 12. feladat
+
+Folytasd a MenutMutasd függvényt. A felhasználó a sorszám megadásával választhassa ki meg melyik műveletet szeretné elvégezni. És kérdezd meg még, ha kell a művelethez plussz adat (pl. jelszómódosítás esetén régi és új jelszó), majd hívd meg a megfelelő függvényt. Végül jelenítsd meg újra a menüt, hogy új műveletet is el tudjon végezni a felhasználó. Addig végezhet műveleteket a felhasználó, amíg a kilépés műveletet nem választja.
+
+## 13. feladat
+
+Az utolsó feladat a bejelentkezés lesz. A `Main` függvényben kérd be a felhasználó felhasználónevét és jelszavát. Keresd ki a tesztfelhasználók közül a megfelelő felhasználót. És hívd meg a felhasználó MenutMutasd függvényét. Ha kilép a felhasználó, újra tudjon belépni más felhasználóként is, a felhasználónév jelszó megadásával. Ha üres felhasználónevet ad meg, akkor lépj ki a programból.
+
+Teszteld a program működését!
 
