@@ -104,6 +104,7 @@ Töröld ki az aktív fájlt, majd töltsd újra a listanézetet!
 __Segítségek__:
   - A `listView.FocusedItem` az éppen aktív listaelem.
   - A Tag-ba benne van a fájlinfó (a ListaBetöltben beletettük)
+  - A Tag-ben, mint általános változó (object) van benne a fájlinfónk, elfelejtette, hogy mi a változó típusa. Ezért vissza kell konvertáljuk fájl infó típusúvá, ezt így tudjuk megtenni: `FileInfo fajlinfo=(FileInfo)konvertalando`. Ahol a `konvertalando` az általános (object) típusú változó.
   - A fájlinfónak van Delete() függvénye. Ha ezt meghívod akkor kitörli a fájlt.
 
 ### Új bejegyzés létrehozása
