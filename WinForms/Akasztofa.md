@@ -87,7 +87,7 @@ Segítségek:
  
  A játékot bővítheted még tetszés szerint az alábbi funkciókkal:
   - A játék kinézetének javítása
-  - Ha a játékos kitalálta a szót, jelents meg egy új szót, amit megint kitalálhat (állítsd alapállapotba mindent).
+  - Ha a játékos kitalálta a szót, jeleníts meg egy új szót, amit megint kitalálhat (állíts alapállapotba mindent).
   - A felhasználó minden kitalált szóért kapjon 100 pontot. Felül írd ki az aktuális pontszámát. Tárold txt-ben, hogy eddig mennyi volt a rekordja. Ha megdönti a rekordot, 
   akkor erről jeleníts meg gratuláló szöveget.
   - Legyen három segítség. Ha (egy gombbal) segítséget kér a játékos, akkor jelenítsd meg a szó első még ki nem talált betűjét.
