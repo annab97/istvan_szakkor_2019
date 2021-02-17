@@ -1,10 +1,10 @@
 # Akasztófa
 
 A feladat egy akasztófa játék írása lesz. A felhasználó feladata magyar nyelven szavak kitalálása, próbálkozhat az abc különböző betűivel.
-Ha eltalálja a betűt nem veszít az életeiből, de ha nem szerepel a betű a kitalálandó szóban akkor veszít az életeiből. Ha az összes élete elfogyott akkor elveszti a játékot.
+Ha eltalálja a betűt nem veszít az életeiből, de ha nem szerepel a betű a kitalálandó szóban akkor veszít az életeiből. Ha az összes élete elfogyott akkor elveszti a játékot. (A felületterven csak F-ig vannak a betűk, de persze az összes betű szerepel majd a kész programban).
 
 
-![akasztofa felületterv]()
+![akasztofa felületterv](akasztofa.png)
 
 ## 1. feladat: Felület
 Hozz létre egy Windows Forms projektet. A felületen legyen egy kép (PictureBox) ahol az akasztófát tudjuk majd megjeleníteni.
