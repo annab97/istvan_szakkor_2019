@@ -86,6 +86,7 @@ Segítségek:
  ### 6. feladatat: Extrák
  
  A játékot bővítheted még tetszés szerint az alábbi funkciókkal:
+  - A játék kinézetének javítása
   - Ha a játékos kitalálta a szót, jelents meg egy új szót, amit megint kitalálhat (állítsd alapállapotba mindent).
   - A felhasználó minden kitalált szóért kapjon 100 pontot. Felül írd ki az aktuális pontszámát. Tárold txt-ben, hogy eddig mennyi volt a rekordja. Ha megdönti a rekordot, 
   akkor erről jeleníts meg gratuláló szöveget.
