@@ -4,3 +4,4 @@
 - [Legyen ön is milliomos](Quiz.md)
 - [Napló](naplo.md)
 - [Akasztófa](Akasztofa.md)
+- [Aknakereső](Aknakereső.md)
