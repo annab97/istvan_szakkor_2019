@@ -1,8 +1,8 @@
 # Aknakereső
 
-A feladat egy aknakereső játék megírása lesz. A játék elkészítéséhez felhasználhatod az [aknakereső_képek.zip](WinForms/aknakereső_képek.zip) tömörített mappában található képeket.
+A feladat egy aknakereső játék megírása lesz. A játék elkészítéséhez felhasználhatod az [aknakereső_képek.zip](aknakereső_képek.zip) tömörített mappában található képeket.
 
-![](WinForms/minesweeper_preview.PNG)
+![](minesweeper_preview.PNG)
 
 ## 1. Feladat
 
